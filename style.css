@@ -18,7 +18,7 @@ h1 {
     font-weight: 500;
     font-size: 60px;
     line-height: 78px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 50px;
 }
 
@@ -46,6 +46,25 @@ h4 {
 
 p {
     margin-bottom: 15px
+}
+
+p.bc {
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 50;
+    margin-bottom: 15px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+a {
+    color: rgba(22, 144, 255, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .navigation {
