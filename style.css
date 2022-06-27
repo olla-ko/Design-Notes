@@ -72,6 +72,12 @@ a:hover {
     text-decoration: underline;
 }
 
+a img {
+    cursor: zoom-in;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .navigation {
     position: -webkit-sticky; /* Safari */
     position: sticky;
