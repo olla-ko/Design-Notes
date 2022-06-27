@@ -83,9 +83,10 @@ a img {
     position: sticky;
     top: 0;
     align-self: flex-start; 
-    width: auto;
-    margin-top: 100px;
-    padding-right: 50px;
+    width: 280px;
+    margin-top: 129px;
+    padding-top: 22px;
+    padding-right: 100px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -96,6 +97,14 @@ a img {
 .navigation li {
     list-style-type: none;
     margin-bottom: 14px;
+}
+
+.navigation a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.active {
+    font-weight: 700;
 }
 
 .site-title {
@@ -113,10 +122,6 @@ a img {
     font-size: 28px;
     line-height: 37px;
     color: rgba(0, 7, 71, 0.6);
-}
-
-.site-title span {
-
 }
 
 .text {
