@@ -86,7 +86,7 @@ a img {
     width: 280px;
     margin-top: 129px;
     padding-top: 22px;
-    padding-right: 100px;
+    padding-right: 60px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -127,4 +127,28 @@ a img {
 .text {
     width: 810px;
     margin-right: 100px;
+    margin-bottom: 100px;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light dark; 
+        background-color: #121212;
+    }
+    body {
+        background-color: #121212;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    img {
+        filter: invert(90%);
+      }
+    .bc, .navigation, .navigation a {
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .site-title {
+        background: linear-gradient(89.99deg, #121212 0.01%, #301A33 25%, #331A26 52.08%, #1A0D0F 74.99%, #121212 99.99%);
+        opacity: 0.5;
+        border-bottom: 1px solid rgba(171, 179, 255, 0.2);
+        color: rgba(255, 255, 255, 0.9);
+    }
+  }
