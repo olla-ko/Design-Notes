@@ -127,12 +127,12 @@ a img {
 .text {
     width: 810px;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        color-scheme: light dark; 
+        color-scheme: dark; 
         background-color: #121212;
     }
     body {
