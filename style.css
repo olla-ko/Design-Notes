@@ -10,6 +10,7 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: rgba(0, 0, 0, 0.85);
+<<<<<<< HEAD
     /* overflow-x: hidden; */
     overflow: scroll;
 }
@@ -17,6 +18,8 @@ body {
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
+=======
+>>>>>>> 896bb79a3eb8410306cc6e36cb1b82e0221a9d67
 }
 
 img {
@@ -86,11 +89,12 @@ a img {
 }
 
 .navigation {
+    display: block;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     align-self: flex-start; 
-    width: 310px;
+    width: 300px;
     margin-top: 129px;
     padding-top: 22px;
     padding-right: 60px;
@@ -100,7 +104,6 @@ a img {
     line-height: 22px;
     color: rgba(0, 0, 0, 0.7);
     background-color: #FFFFFF;
-    display: block;
 }
 
 .navigation li {
