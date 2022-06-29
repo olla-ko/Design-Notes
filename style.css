@@ -10,7 +10,6 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: rgba(0, 0, 0, 0.85);
-<<<<<<< HEAD
     /* overflow-x: hidden; */
     overflow: scroll;
 }
@@ -18,8 +17,6 @@ body {
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
-=======
->>>>>>> 896bb79a3eb8410306cc6e36cb1b82e0221a9d67
 }
 
 img {
