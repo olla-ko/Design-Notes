@@ -187,6 +187,11 @@ li a {
         border-bottom: 1px solid rgba(171, 179, 255, 0.2);
         color: rgba(147, 135, 183, 1);
     }
+    .title-container {
+        justify-self: center;
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
   }
 
 @media only screen 
