@@ -10,6 +10,8 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: rgba(0, 0, 0, 0.85);
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
 }
 
 img {
@@ -94,7 +96,6 @@ a img {
     color: rgba(0, 0, 0, 0.7);
     background-color: #FFFFFF;
     display: block;
-    text-align: left;
 }
 
 .navigation li {
