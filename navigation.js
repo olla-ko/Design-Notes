@@ -18,3 +18,9 @@ $('.navigation').append('<ul> <li><a href="index.html">Вступление</a><
 
 var header = $('h1').text();
 $('a:contains('+ header +')').parent('li').addClass('active');
+
+$(document).ready(function(){
+    $(".burger").click(function(){
+        $(".navigation").toggle();
+    });
+});

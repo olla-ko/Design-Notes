@@ -92,6 +92,7 @@ a img {
     font-size: 16px;
     line-height: 22px;
     color: rgba(0, 0, 0, 0.7);
+    background-color: #FFFFFF;
 }
 
 .navigation li {
@@ -108,7 +109,6 @@ a img {
 
 .active {
     font-weight: 700;
-    /* list-style-image: url('IMG/Rectangle.svg'); */
     background: url('IMG/Rectangle.svg') no-repeat left center;
 }
 
@@ -121,17 +121,31 @@ li a {
     background: linear-gradient(89.99deg, #DBDAFF 0.01%, #FADDFF 25%, #FFF2E2 52.08%, #FFE1DF 74.99%, #DFDFF5 99.99%);
     opacity: 0.7;
     border-bottom: 1px solid rgba(171, 179, 255, 0.6);
-    display: flex;
-    justify-content: center;
+    color: rgba(0, 7, 71, 0.5);
+    display: grid;
+    grid-template-columns: 68px 1fr 68px;
     align-items: center;
+}
+
+.title-container {
+    justify-self: center;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.title-container span {
     font-family: 'EB Garamond';
     font-style: italic;
     font-weight: 100;
     font-size: 28px;
     line-height: 36px;
-    padding-top: 14px;
-    padding-bottom: 16px;
-    color: rgba(0, 7, 71, 0.5);
+}
+
+.burger {
+    background-image: url('IMG/burger-light.svg');
+    width: 66px;
+    height: 66px;
+    cursor: pointer;
 }
 
 .text {
@@ -152,6 +166,9 @@ li a {
     img {
         filter: invert(90%);
       }
+    .navigation {
+        background-color: #121212;
+    }
     .bc, .navigation, .navigation a {
         color: rgba(255, 255, 255, 0.9);
     }
@@ -169,14 +186,15 @@ li a {
     {
         .navigation {
             position: absolute;
-            background-color: #121212;
-            width: 100%;
-            padding-left: 50px;
+            width: 100vw;
+            padding-top: 0;
+            padding-left: 24px;
             padding-right: 0;
-            padding-bottom: 32px;
+            padding-bottom: 22px;
             margin-top: 93px;
             font-size: 18px;
-            visibility: hidden;
+            display: none;
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
         }
         .navigation li {
             padding: 14px 0px 14px 10px;
@@ -190,11 +208,17 @@ li a {
         }
     }
 
-    @media only screen 
-    and (min-width: 375px)
-    and (max-width: 593px)
+@media only screen 
+    and (min-width: 705px)
+    and (max-width: 1300px)
     {
-        .site-title {
-            padding-left: 24px;
+        .navigation {
+            left: 0;
+            width: auto;
+            padding-left: 12px;
+            padding-right: 48px;
+            padding-top: 14px;
+            margin-top: 67px;
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
         }
     }
