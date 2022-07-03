@@ -19,6 +19,9 @@ $('.navigation').append('<ul> <li><a href="index.html">Вступление</a><
 var header = $('h1').text();
 $('a:contains('+ header +')').parent('li').addClass('active');
 
+var next_article = $('li.active').next('li').find('a').attr('href');
+$('div.next-article-wrap').find('a').attr('href', next_article);
+
 $(document).ready(function(){
     $(".burger").click(function(){
         $(".navigation").toggle();
