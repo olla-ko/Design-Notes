@@ -1,7 +1,6 @@
 body {
     overflow: auto;
     width: 100%;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -12,6 +11,19 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: rgba(0, 0, 0, 0.85);
+}
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer span {
+    display: block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 16px;
 }
 
 ::-webkit-scrollbar {
@@ -85,6 +97,16 @@ a img {
     margin-bottom: 20px;
 }
 
+a[href^="mailto:"] {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+a[href^="mailto:"]:hover {
+    color: rgba(22, 144, 255, 1);
+}
+
 .navigation {
     user-select: none;
     display: block;
@@ -129,7 +151,6 @@ li a {
     width: 100%;
     background: linear-gradient(89.99deg, #DBDAFF 0.01%, #FADDFF 25%, #FFF2E2 52.08%, #FFE1DF 74.99%, #DFDFF5 99.99%);
     opacity: 0.7;
-    border-bottom: 1px solid rgba(171, 179, 255, 0.6);
     color: rgba(0, 7, 71, 0.5);
     display: grid;
     grid-template-columns: 68px 1fr 68px;
@@ -157,6 +178,27 @@ li a {
     cursor: pointer;
     visibility: hidden;
 }
+
+.gradient-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        rgba(190, 190, 255, 1),
+        rgba(255, 183, 255, 1),
+        rgba(255, 223, 186, 1),
+        rgba(255, 200, 195, 1),
+        rgba(191, 191, 255, 1)
+    );
+}
+
+/* .gradient-divider:nth-of-type(1) {
+    background: linear-gradient(
+        to right,
+        rgba(171, 179, 255, 1),
+        rgba(171, 179, 255, 1)
+    );
+} */
 
 .text {
     max-width: 810px;
@@ -219,12 +261,21 @@ li a {
     }
     .site-title {
         background: none;
-        border-bottom: 1px solid rgba(171, 179, 255, 0.4);
         color: rgba(147, 135, 183, 0.8);
     }
     .title-container {
         margin-top: 10px;
         margin-bottom: 12px;
+    }
+    .gradient-divider {
+        background: linear-gradient(
+            to right,
+            rgba(69, 69, 194, 1),
+            rgba(220, 111, 220, 1),
+            rgba(233, 132, 15, 1),
+            rgba(210, 58, 46, 1),
+            rgba(49, 49, 174, 1)
+        );
     }
     .next-article-wrap {
         background: linear-gradient(
