@@ -219,9 +219,8 @@ li a {
     }
     .site-title {
         background: none;
-        opacity: 0.5;
-        border-bottom: 1px solid rgba(171, 179, 255, 0.2);
-        color: rgba(147, 135, 183, 1);
+        border-bottom: 1px solid rgba(171, 179, 255, 0.4);
+        color: rgba(147, 135, 183, 0.8);
     }
     .title-container {
         margin-top: 10px;
