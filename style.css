@@ -15,15 +15,23 @@ body {
 
 footer {
     width: 100%;
-    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-footer span {
-    display: block;
-    float: right;
+.footer-content {
+    max-width: 810px;
+    width: 100%;
+    margin-right: 100px;
     margin-top: 15px;
-    margin-right: 20px;
     margin-bottom: 16px;
+}
+
+.facepalm {
+    width: 300px;
+    margin-right: 60px;
 }
 
 ::-webkit-scrollbar {
@@ -116,8 +124,8 @@ a[href^="mailto:"]:hover {
     align-self: flex-start; 
     width: 300px;
     margin-top: 129px;
+    margin-right: 60px;
     padding-top: 22px;
-    padding-right: 60px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -180,6 +188,7 @@ li a {
 }
 
 .gradient-divider {
+    margin-top: 100px;
     width: 100%;
     height: 1px;
     background: linear-gradient(
@@ -250,6 +259,9 @@ li a {
         background-color: #121212;
         color: rgba(255, 255, 255, 0.9);
     }
+    footer div a[href^="mailto:"] {
+        color: rgba(255, 255, 255, 0.5);
+    }
     img {
         filter: invert(90%);
       }
@@ -319,6 +331,14 @@ li a {
             margin-bottom: 0;
             padding-left: 24px;
             padding-right: 24px;
+        }
+        .footer-content {
+            margin-right: 0;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .facepalm {
+            display: none;
         }
     }
 
