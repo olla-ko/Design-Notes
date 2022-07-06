@@ -100,7 +100,7 @@ a img {
 a[href^="mailto:"] {
     font-size: 14px;
     line-height: 20px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(170, 168, 197, 1);
 }
 
 a[href^="mailto:"]:hover {
