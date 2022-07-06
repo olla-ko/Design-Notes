@@ -150,8 +150,7 @@ li a {
 .site-title {
     width: 100%;
     background: linear-gradient(89.99deg, #DBDAFF 0.01%, #FADDFF 25%, #FFF2E2 52.08%, #FFE1DF 74.99%, #DFDFF5 99.99%);
-    opacity: 0.7;
-    color: rgba(0, 7, 71, 0.5);
+    color: rgba(0, 7, 71, 0.4);
     display: grid;
     grid-template-columns: 68px 1fr 68px;
     align-items: center;
