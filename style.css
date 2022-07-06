@@ -149,7 +149,7 @@ li a {
 
 .site-title {
     width: 100%;
-    background: linear-gradient(89.99deg, #DBDAFF 0.01%, #FADDFF 25%, #FFF2E2 52.08%, #FFE1DF 74.99%, #DFDFF5 99.99%);
+    background: linear-gradient(89.99deg, #E4E3FF 0.01%, #FDE8FF 25%, #FFF3E7 52.08%, #FFE8E7 74.99%, #E7E7F8 99.99%);
     color: rgba(0, 7, 71, 0.4);
     display: grid;
     grid-template-columns: 68px 1fr 68px;
