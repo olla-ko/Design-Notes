@@ -288,6 +288,14 @@ li a {
     .next-article {
         background-color: #121212;
     }
+    .burger {
+        background-image: url('IMG/burger-light.svg');
+        width: 66px;
+        height: 66px;
+        opacity: 50%;
+        cursor: pointer;
+        visibility: hidden;
+    }
   }
 
 @media only screen 
