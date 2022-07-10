@@ -261,11 +261,6 @@ li a {
     .bc, .navigation, .navigation a {
         color: rgba(255, 255, 255, 0.9);
     }
-    .bc {
-        font-size: 20px;
-        margin-bottom: 20px;
-        line-height: 24px;
-    }
     .site-title {
         background: none;
         color: rgba(147, 135, 183, 0.7);
@@ -342,6 +337,11 @@ li a {
             font-family: 'EB Garamond';
             font-style: italic;
             font-weight: 400;
+        }
+        .bc {
+            font-size: 20px;
+            margin-bottom: 20px;
+            line-height: 24px;
         }
         .burger {
             visibility: visible;
