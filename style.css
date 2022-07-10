@@ -9,7 +9,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 26px;
     color: rgba(0, 0, 0, 0.85);
 }
 
@@ -52,23 +52,22 @@ h1 {
     font-weight: 500;
     font-size: 60px;
     line-height: 78px;
-    margin-bottom: 20px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-weight: 700;
     font-size: 32px;
-    margin-bottom: 20px;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-weight: 600;
     font-size: 22px;
-    margin-bottom: 10px;
     margin-top: 40px;
-
+    margin-bottom: 10px;
 }
 
 h4 {
@@ -199,14 +198,6 @@ li a {
     );
 }
 
-/* .gradient-divider:nth-of-type(1) {
-    background: linear-gradient(
-        to right,
-        rgba(171, 179, 255, 1),
-        rgba(171, 179, 255, 1)
-    );
-} */
-
 .text {
     max-width: 810px;
     margin-bottom: 100px;
@@ -311,23 +302,55 @@ li a {
   }
 
 @media only screen 
-    and (min-width: 375px)
+    and (min-width: 300px)
     and (max-width: 1300px)
     {
+        body {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        h1 {
+            font-size: 40px;
+            line-height: 46px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            font-size: 20px;
+            line-height: 28px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 16px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        h4 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-family: 'EB Garamond';
+            font-style: italic;
+            font-weight: 400;
+        }
         .burger {
             visibility: visible;
         }
         .navigation {
             position: absolute;
-            width: 100vw;
-            padding-top: 12px;
-            padding-left: 24px;
-            padding-right: 0;
-            padding-bottom: 20px;
-            margin-top: 93px;
-            font-size: 18px;
+            width: 100%;
+            top: -57px;
+            left: 0;
+            font-size: 16px;
             display: none;
             box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+        }
+        .navigation ul {
+            padding-left: 20px;
+            padding-right: 24px;
+            padding-bottom: 24px;
         }
         .navigation li {
             padding: 14px 0px 14px 10px;
@@ -335,9 +358,11 @@ li a {
         .text {
             width: auto;
             margin-right: 0;
-            margin-bottom: 0;
+            margin-bottom: 50px;
             padding-left: 24px;
             padding-right: 24px;
+            font-size: 16px;
+            line-height: 24px;
         }
         .footer-content {
             margin-right: 0;
@@ -346,6 +371,10 @@ li a {
         }
         .facepalm {
             display: none;
+        }
+        .title-container span {
+            font-size: 22px;
+            line-height: 24px;
         }
     }
 
