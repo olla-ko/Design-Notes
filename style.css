@@ -261,6 +261,11 @@ li a {
     .bc, .navigation, .navigation a {
         color: rgba(255, 255, 255, 0.9);
     }
+    .bc {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
     .site-title {
         background: none;
         color: rgba(147, 135, 183, 0.7);
@@ -314,7 +319,7 @@ li a {
         }
         h1 {
             font-size: 40px;
-            line-height: 46px;
+            line-height: 42px;
             margin-top: 30px;
             margin-bottom: 20px;
         }
@@ -377,7 +382,7 @@ li a {
         }
         .title-container span {
             font-size: 22px;
-            line-height: 24px;
+            line-height: 22px;
         }
     }
 
