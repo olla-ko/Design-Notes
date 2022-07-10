@@ -147,7 +147,7 @@ a[href^="mailto:"]:hover {
 
 .active {
     font-weight: 700;
-    background: url('IMG/Rectangle.svg') no-repeat left center;
+    background: url('IMG/Rectangle_light.svg') no-repeat left center;
 }
 
 li a {
@@ -298,6 +298,9 @@ li a {
         opacity: 50%;
         cursor: pointer;
         visibility: hidden;
+    }
+    .active {
+        background: url('IMG/Rectangle_dark.svg') no-repeat left center;
     }
   }
 
