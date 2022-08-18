@@ -27,3 +27,9 @@ $(document).ready(function(){
         $(".navigation").toggle();
     });
 });
+
+window.addEventListener('resize', function(event) {
+    if (window.innerWidth > 1300) {
+        $(".navigation").show();
+      }
+}, true);
