@@ -8,8 +8,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 22px;
     color: rgba(0, 0, 0, 0.85);
 }
 
@@ -78,7 +78,7 @@ h4 {
 }
 
 p {
-    margin-bottom: 15px
+    margin-bottom: 10px;
 }
 
 .bc {
@@ -308,10 +308,6 @@ li a {
     and (min-width: 300px)
     and (max-width: 1300px)
     {
-        body {
-            font-size: 16px;
-            line-height: 20px;
-        }
         h1 {
             font-size: 40px;
             line-height: 42px;
@@ -392,6 +388,7 @@ li a {
     {
         .navigation {
             left: 0;
+            top: 0;
             width: auto;
             padding-left: 12px;
             padding-right: 48px;
