@@ -345,6 +345,9 @@ span a {
             margin-bottom: 20px;
             line-height: 24px;
         }
+        a:hover {
+            text-decoration: none;
+        }
         .burger {
             visibility: visible;
         }
