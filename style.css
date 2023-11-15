@@ -75,13 +75,12 @@ p {
     margin-bottom: 10px;
 }
 .bc {
-    font-family: 'EB Garamond';
+    font-family: 'Open Sans', sans-serif;
     font-style: italic;
-    font-size: 24px;
-    font-weight: 50;
+    font-size: 16px;
+    font-weight: 600;
     margin-bottom: 11px;
-    line-height: 120%;
-    color: rgba(0, 0, 0, 0.7)
+    line-height: 28px;
 }
 a {
     color: rgba(22, 144, 255, 1);
