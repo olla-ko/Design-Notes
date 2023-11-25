@@ -10,7 +10,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.80);
 }
 footer {
     width: 100%;
@@ -155,23 +155,18 @@ a[href^="mailto:"]:hover {
 }
 .site-title {
     width: 100%;
-    background: linear-gradient(89.99deg, #E4E3FF 0.01%, #FDE8FF 25%, #FFF3E7 52.08%, #FFE8E7 74.99%, #E7E7F8 99.99%);
-    color: rgba(0, 7, 71, 0.4);
     display: grid;
     grid-template-columns: 68px 1fr 68px;
     align-items: center;
 }
 .title-container {
     justify-self: center;
-    margin-top: 8px;
-    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px   ;
 }
 .title-container span {
-    font-family: 'EB Garamond';
-    font-style: italic;
-    font-weight: 100;
-    font-size: 28px;
-    line-height: 36px;
 }
 span a {
     text-decoration: none;
@@ -202,43 +197,18 @@ span a {
     margin-right: 100px;
 }
 
-.next-article-wrap {
-    user-select: none;
-    margin-top: 30px;
-    width: 100%;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-    line-height: 24px;
-    color: rgba(22, 144, 255, 1);
-    background: transparent;
-    border-radius :16px;
-    position: relative;
-    background: linear-gradient(
-        to right,
-        rgba(202, 202, 255, 1),
-        rgba(255, 206, 255, 1),
-        rgba(255, 230, 202, 1),
-        rgba(255, 212, 209, 1)
-    );
-    padding: 3px;
-}
-
-.next-article-wrap a:hover {
-    text-decoration: none;
-}
-
-.next-article {
+.next-article a {
+    margin-top: 32px;
     cursor: pointer;
-    border-radius :15px;
-    background: #FFFFFF;
-    padding-top: 18px;
-    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+    color: rgba(22, 144, 255, 1);
+
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
         color-scheme: dark; 
         background-color: #121212;
@@ -312,7 +282,7 @@ span a {
     .navigation li.active:hover {
         background: url('IMG/Rectangle_dark.svg') no-repeat left center;
     }
-  }
+  } */
 
 @media only screen 
     and (min-width: 300px)
