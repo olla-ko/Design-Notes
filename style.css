@@ -3,7 +3,6 @@ html, body {
     display: flex;
     flex-direction: column;
 }
-
 body {
     overflow: auto;
     width: 100%;
@@ -36,10 +35,6 @@ footer {
     width: 100%;
     margin-top: 15px;
     margin-bottom: 16px;
-}
-.facepalm {
-    width: 320px;
-    margin-right: 30px;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -177,8 +172,6 @@ a[href^="mailto:"]:hover {
     align-items: center;
     gap: 12px   ;
 }
-.title-container span {
-}
 span a {
     text-decoration: none;
     color: rgba(0, 7, 71, 0.4);
@@ -219,7 +212,7 @@ span a {
 
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         color-scheme: dark; 
         background-color: #121212;
@@ -293,7 +286,7 @@ span a {
     .navigation li.active:hover {
         background: url('IMG/Rectangle_dark.svg') no-repeat left center;
     }
-  } */
+  }
 
 @media only screen 
     and (min-width: 300px)
@@ -340,7 +333,7 @@ span a {
             display: none;
             position: absolute;
             width: 100%;
-            top: -56px;
+            top: -38px;
             left: 0;
             font-size: 16px;
             box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
@@ -368,14 +361,6 @@ span a {
             margin-bottom: 50px;
             padding-left: 24px;
             padding-right: 24px;
-        }
-        .footer-content {
-            margin-right: 0;
-            padding-left: 24px;
-            padding-right: 24px;
-        }
-        .facepalm {
-            display: none;
         }
         .title-container span {
             line-height: 20px;
